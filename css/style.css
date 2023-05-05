@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* barre de navigation*/
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  color: #fff;
+  padding: 0 25px;
+  justify-content: space-between;
+
+}
+.gauche{
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+}
+.droit{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.gauche img{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+ 
+    }
+.gauche ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap:wrap;
+}
+ a{
+    margin-right: 10px;
+    cursor:pointer;
+    color: #909191;
+}
+ a:hover{
+      color: #fff;
+}
+
+.droit p {
+    margin-left: 10px;
+    cursor:pointer;
+}
+/* END barre de navigation*/
+
+/*section*/
+.film-et-serie{
+    background-color: #191a1a;
+    margin:0;
+    padding: 1%;
+}
+section .section{
+    margin-bottom: 2%;
+    padding-right: 1%;
+}
+.section h2{
+color: #fff;
+}
+.liste{
+ display: flex;   
+ overflow-x: auto;
+ overflow-y: hidden;
+}
+
+.liste a{
+    transition: transform 0.25s;
+}
+.liste a:hover{
+transform: scale(1.15);
+}
+.liste a img{
+    height: 100%;
+}
+/*END section*/
+
+/*footer*/
+footer{
+    background-color: black;
+    color: #909191;
+    padding: 2%;
+}
+footer h1{
+    font-size: 12px;
+}
+footer h1, p{
+    padding-left: 6%;
+  
+}
+.colonnes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*END Footer*/
